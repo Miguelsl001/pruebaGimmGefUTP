@@ -14,4 +14,3 @@ Popper: ['popper.js', 'default']
 }))
 
 module.exports = environment
-config.gem 'gravatar_image_tag'
