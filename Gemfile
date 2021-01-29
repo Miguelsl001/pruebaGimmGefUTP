@@ -24,9 +24,6 @@ gem 'devise-security'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
-gem 'sassc', '~> 2.4.0'
-gem 'image_processing', '~> 1.2'
-gem 'bcrypt', '~> 3.1.7'
 gem 'capistrano', '~> 3.11'
 gem 'capistrano-rails', '~> 1.4'
 gem 'capistrano-passenger', '~> 0.2.0'
