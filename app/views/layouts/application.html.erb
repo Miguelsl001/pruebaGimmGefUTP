@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Prueba</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+<head>
+  <title>Gimm-Gef</title>
+  <%= favicon_link_tag asset_path('icono.ico') %>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= stylesheet_pack_tag 'src/application', media: 'all' %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+</head>
 
-  <body>
+<body class = "d-flex flex-column">
+  <%= render 'layouts/navegation' %>
+  <div id="page-content">
+    <%= render 'layouts/messages' %>
     <%= yield %>
-  </body>
+  </div>
+  <%= render 'layouts/footer' %>
+</body>
 </html>
