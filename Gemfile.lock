@@ -288,6 +288,7 @@ DEPENDENCIES
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.1)
   sass-rails (>= 6)
+  sassc (~> 2.4.0)
   selenium-webdriver
   spring
   sqlite3 (~> 1.4)

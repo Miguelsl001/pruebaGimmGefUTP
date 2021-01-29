@@ -24,6 +24,7 @@ gem 'devise-security'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
+gem 'sassc', '~> 2.4.0'
 gem 'image_processing', '~> 1.2'
 gem 'gravatar_image_tag'
 gem 'bcrypt', '~> 3.1.7'
